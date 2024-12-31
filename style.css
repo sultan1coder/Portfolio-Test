@@ -28,3 +28,97 @@ header {
     align-items: center;
     z-index: 100;
 }
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar-nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: indigo;
+    margin-left: 35px;
+    font-weight: 500;
+    border-bottom: 2px solid #ffffff00;
+    transition: all;
+    transition-duration: 300ms;
+}
+.navbar-nav a:hover, .navbar-nav .active {
+    border-bottom: 2px solid indianred;
+}
+.home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: pink;
+}
+.home-detail h1 {
+    font-size: 55px;
+    line-height: 1;
+}
+.home-detail h1 span {
+    color: #4badf4;
+}
+.home-detail h2 {
+    font-size: 32px;
+}
+.home-detail p {
+    margin: 10px 0 20px;
+}
+.home-detail .download-social {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid indigo;
+    border-radius: 45px;
+    box-shadow: 0 0 10px indianred;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn:hover {
+    background: transparent;
+    text-decoration: underline;
+    color: #333;
+}
+.home-detail .social-icons {
+    margin-left: 20px;
+}
+.home-detail .social-icons a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 0 8px;
+}
+.home-detail .social-icons a:hover {
+    text-decoration: underline;
+    background: #333;
+    box-shadow: 0 0 10px #333;
+    color: #fff;
+}
+.home-img .img-box {
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid #333;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #333;
+    overflow: hidden;
+}
+.home-img .img-box img {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
