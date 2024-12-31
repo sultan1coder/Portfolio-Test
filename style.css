@@ -72,6 +72,16 @@ header {
     display: flex;
     align-items: center;
 }
+.download-social {
+    display: flex;
+    justify-content: space-around;
+}
+.download-social a i {
+    position: relative;
+    top: 10px;
+    gap: 20px;
+
+}
 .btn {
     display: inline-block;
     padding: 10px 30px;
