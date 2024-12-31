@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background: url() no-repeat center center / cover;
+    padding: 50px 5%;
+}
+.container {
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter:blur(20px);
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
